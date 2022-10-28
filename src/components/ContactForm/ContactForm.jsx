@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 export const ContactForm = ({submit}) => {
   
-  const {name, setName} = useState("");
-  const {number, setNumber} = useState("");
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
 
   // state = {
   //   name: "",
